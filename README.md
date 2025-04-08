@@ -1,6 +1,6 @@
 # 双卡多模态LLM：轻量化训练与对话落地
-### 参考项目：https://github.com/wyf3/llm_related/tree/main/train_multimodal_from_scratch； 
-### 改进点：项目代码结构调整/动态门控/多轮记忆机制/DPO数据生成与模型训练/DeepSpeed ZeRO-2与混合并行
+- 参考项目：https://github.com/wyf3/llm_related/tree/main/train_multimodal_from_scratch； 
+- 改进点：项目代码结构调整/动态门控/多轮记忆机制/DPO数据生成与模型训练/DeepSpeed ZeRO-2与混合并行
 
 ## 一. 项目简介
 • 针对企业多模态大模型落地中高算力依赖与训练流程复杂的痛点，基于个人双卡GPU环境搭建端到端多模态训练pipeline（数据预处理→基础训练→SFT→DPO），为中小企业提供低成本多模态技术落地参考。
